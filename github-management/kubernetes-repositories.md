@@ -68,6 +68,7 @@ from a central body (e.g. steering committee or sig-architecture)
 ### Rules for new repositories
 
    * For now all repos will live in `github.com/kubernetes-sigs/\<project-name\>`.
+      * For project names: see [project-naming](./../committee-steering/governance/project-naming.md)
    * Must contain the topic for the sponsoring SIG - e.g.
      `k8s-sig-api-machinery`.  (Added through the *Manage topics* link on the
 repo page.)
@@ -97,8 +98,10 @@ Corporate CLA](https://github.com/cncf/cla/blob/master/corporate-cla.pdf)
    * If (a) contributor(s) have not signed the CLA and could not be reached, a
      NOTICE file should be added referencing section 7 of the CLA with a list of
 the developers who could not be reached
-   * Licenses of dependencies are acceptable; project owners can ping
-     [@caniszczyk](https://github.com/caniszczyk) for review of third party deps
+   * Licenses of dependencies are acceptable; please review the [allowed-third-party-license-policy.md](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md)
+     and [exceptions](https://github.com/cncf/foundation/tree/main/license-exceptions).
+     If your dependencies are not covered, then please open a `License Exception Request` issue in
+     [cncf/foundation](https://github.com/cncf/foundation/issues) repository.
    * Boilerplate text across all files should attribute copyright as follows:
      `"Copyright <Project Authors>"` if no CLA was in place prior to donation
    * Additions of [the standard Kubernetes header](https://git.k8s.io/kubernetes/hack/boilerplate/boilerplate.go.txt)
@@ -106,6 +109,7 @@ the developers who could not be reached
      ideally occur shortly thereafter.
    * Should contain template files as per the
      [kubernetes-template-project](https://github.com/kubernetes/kubernetes-template-project).
+   * For project names: see [project-naming](./../committee-steering/governance/project-naming.md)
 
 Note that copyright notices should only be modified or removed by the people or
 organizations named in the notice. See [the FAQ below](#faq) for more information
